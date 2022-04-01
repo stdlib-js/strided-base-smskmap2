@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/strided-base-smskmap2",
+  "version": "0.0.0",
+  "description": "Apply a binary function to single-precision floating-point strided input arrays according to a strided mask array and assign results to a single-precision floating-point strided output array.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/strided-base-smskmap2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "strided",
+    "base",
+    "array",
+    "ndarray",
+    "binary",
+    "apply",
+    "foreach",
+    "map",
+    "transform",
+    "float32",
+    "float",
+    "single-precision",
+    "flt",
+    "mask",
+    "masked",
+    "missing",
+    "missing values",
+    "na"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
