@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-smskmap2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Apply a binary function to single-precision floating-point strided input arrays according to a strided mask array and assign results to a single-precision floating-point strided output array.",
   "license": "Apache-2.0",
   "author": {
@@ -39,14 +39,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
-    "@stdlib/utils-library-manifest": "^0.0.8"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0",
+    "@stdlib/utils-library-manifest": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-filled-by": "^0.0.2",
     "@stdlib/array-float32": "^0.0.6",
     "@stdlib/array-uint8": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/math-base-assert-is-nanf": "^0.0.8",
     "@stdlib/math-base-ops-addf": "^0.0.1",
     "@stdlib/math-base-special-pow": "^0.0.7",
