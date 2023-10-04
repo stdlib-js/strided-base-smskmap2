@@ -50,13 +50,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-smskmap2/tags). For example,
+
+```javascript
 import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@v0.1.1-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@esm/index.mjs';
 ```
 
 #### smskmap2( N, x, strideX, y, strideY, mask, strideMask, z, strideZ, fcn )
@@ -199,7 +204,7 @@ var bernoulli = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bern
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import addf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-addf@esm/index.mjs';
-import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@v0.1.1-esm/index.mjs';
+import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( -100, 100 ) );
 console.log( x );
