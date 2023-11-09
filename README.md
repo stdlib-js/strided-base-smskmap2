@@ -361,6 +361,14 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/strided-base/dmskmap2`][@stdlib/strided/base/dmskmap2]</span><span class="delimiter">: </span><span class="description">apply a binary function to double-precision floating-point strided input arrays according to a strided mask array and assign results to a double-precision floating-point strided output array.</span>
+-   <span class="package-name">[`@stdlib/strided-base/smap2`][@stdlib/strided/base/smap2]</span><span class="delimiter">: </span><span class="description">apply a binary function to single-precision floating-point strided input arrays and assign results to a single-precision floating-point strided output array.</span>
+-   <span class="package-name">[`@stdlib/strided-base/smskmap`][@stdlib/strided/base/smskmap]</span><span class="delimiter">: </span><span class="description">apply a unary function to a single-precision floating-point strided input array according to a strided mask array and assign results to a single-precision floating-point strided output array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -437,6 +445,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
+
+<!-- <related-links> -->
+
+[@stdlib/strided/base/dmskmap2]: https://github.com/stdlib-js/strided-base-dmskmap2
+
+[@stdlib/strided/base/smap2]: https://github.com/stdlib-js/strided-base-smap2
+
+[@stdlib/strided/base/smskmap]: https://github.com/stdlib-js/strided-base-smskmap
+
+<!-- </related-links> -->
 
 </section>
 
