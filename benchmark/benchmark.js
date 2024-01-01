@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var uniform = require( '@stdlib/random-base-uniform' ).factory;
 var bernoulli = require( '@stdlib/random-base-bernoulli' ).factory;
 var isnanf = require( '@stdlib/math-base-assert-is-nanf' );
