@@ -50,13 +50,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@deno/mod.js';
+import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@v0.2.1-deno/mod.js';
 ```
 
 #### smskmap2( N, x, strideX, y, strideY, mask, strideMask, z, strideZ, fcn )
@@ -194,7 +194,7 @@ var bernoulli = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bern
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import addf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-addf@deno/mod.js';
-import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@deno/mod.js';
+import smskmap2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-smskmap2@v0.2.1-deno/mod.js';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( -100, 100 ) );
 console.log( x );
